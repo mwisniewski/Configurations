@@ -938,7 +938,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 135 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 137 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1897,15 +1897,15 @@
 //
 
 // Preheat Constants
-#define PREHEAT_3_LABEL       "Warmup"
-#define PREHEAT_3_TEMP_HOTEND 185
-#define PREHEAT_3_TEMP_BED     0
-#define PREHEAT_3_TEMP_CHAMBER 0
-#define PREHEAT_3_FAN_SPEED   100 // Value from 0 to 255
+#define PREHEAT_4_LABEL       "Warmup"
+#define PREHEAT_4_TEMP_HOTEND 185
+#define PREHEAT_4_TEMP_BED     55
+#define PREHEAT_4_TEMP_CHAMBER 0
+#define PREHEAT_4_FAN_SPEED   100 // Value from 0 to 255
 
 #define PREHEAT_3_LABEL       "HOTEND"
-#define PREHEAT_3_TEMP_HOTEND 185
-#define PREHEAT_3_TEMP_BED     55
+#define PREHEAT_3_TEMP_HOTEND  215
+#define PREHEAT_3_TEMP_BED     0
 #define PREHEAT_3_TEMP_CHAMBER 0
 #define PREHEAT_3_FAN_SPEED   100 // Value from 0 to 255
 
